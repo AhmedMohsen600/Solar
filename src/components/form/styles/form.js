@@ -227,6 +227,7 @@ export const Branches = styled.section`
 
 export const CityGroup = styled.ul`
   display: flex;
+  flex-wrap: wrap;
   gap: 32px;
 `;
 
