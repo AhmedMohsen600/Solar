@@ -1,0 +1,242 @@
+[
+  {
+    "category": "Solar",
+    "name": "solar",
+    "src": "/images/categories/solar1.png",
+    "courses": [
+      {
+        "name": "Solar Level 1",
+        "registrationForm": "https://forms.gle/h95iK5Y6sF4A2zgU9",
+        "agenda": "https://drive.google.com/drive/folders/1PjDhAd6M9JjhEMaEpsME_1IURcOQtjon?usp=sharing",
+        "src": "/images/categories/solar1.png",
+        "desc": "“Pre-Design Stage of PV” Solar Energy Training program covers all Fundamentals & Manufacturing process of PV needed to qualify the trainee for the design phase",
+        "images": [
+          {
+            "src": "/images/courses/solar/s.png"
+          },
+          {
+            "src": "/images/courses/solar/s1.png"
+          },
+          {
+            "src": "/images/courses/solar/s2.png"
+          },
+          {
+            "src": "/images/courses/solar/s3.png"
+          },
+          {
+            "src": "/images/courses/solar/s4.png"
+          },
+          {
+            "src": "/images/courses/solar/s5.png"
+          },
+          {
+            "src": "/images/courses/solar/s7.png"
+          },
+          {
+            "src": "/images/courses/solar/s8.png"
+          }
+        ]
+      },
+      {
+        "name": "Solar Level 2",
+        "registrationForm": "https://forms.gle/qUgD383AFVwF6DZAA",
+        "agenda": "https://drive.google.com/drive/folders/1cDZTwNED3TCflAVyMjUz-H8H2AerLcTq?usp=sharing",
+        "src": "/images/categories/solar1.png",
+        "desc": "“Advanced PV Systems Design” Solar Energy Training program covers all necessary knowledge and techniques needed to qualify the trainee to design on grid, off grid, pumping, earthing and lightning protection systems",
+        "images": [
+          {
+            "src": "/images/courses/solar/s9.png"
+          },
+          {
+            "src": "/images/courses/solar/s10.png"
+          },
+          {
+            "src": "/images/courses/solar/s11.png"
+          },
+          {
+            "src": "/images/courses/solar/s12.png"
+          },
+          {
+            "src": "/images/courses/solar/s13.png"
+          },
+          {
+            "src": "/images/courses/solar/s14.png"
+          },
+          {
+            "src": "/images/courses/solar/s15.png"
+          },
+          {
+            "src": "/images/courses/solar/s16.png"
+          }
+        ]
+      }
+    ]
+  },
+
+  {
+    "category": "Embedded",
+    "name": "embedded",
+    "src": "/images/categories/embedded.png",
+    "courses": [
+      {
+        "name": "Embedded Systems",
+        "registrationForm": "https://forms.gle/ZnKi2TEYTmCAT9ea7",
+        "agenda": "https://drive.google.com/drive/folders/1L4PpZb1ksXCM0FIGqQJ2p5jLzF4g_ZiC?usp=sharing",
+        "src": "/images/categories/embedded.png",
+        "desc": "Wanna be a part of the next hardware trend movement , Embedded Systems Training is your right choice ..",
+        "images": [
+          {
+            "src": "/images/courses/embedded/e1.png"
+          },
+          {
+            "src": "/images/courses/embedded/e2.png"
+          },
+          {
+            "src": "/images/courses/embedded/e3.png"
+          },
+          {
+            "src": "/images/courses/embedded/e4.png"
+          },
+          {
+            "src": "/images/courses/embedded/e5.png"
+          }
+        ]
+      },
+      {
+        "name": "Arduino",
+        "registrationForm": "https://forms.gle/rh6G7UhaQYXCjZra7",
+        "agenda": "https://drive.google.com/drive/folders/1r3tc9mWX9fZ5qoeGjlyIsPek_ZpO7Lm8?usp=sharing",
+        "src": "/images/categories/embedded.png",
+        "desc": "For Makers and Students , Your Hardware project have never been easier to be alive …",
+        "images": [
+          {
+            "src": "/images/courses/arduino/a1.png"
+          },
+          {
+            "src": "/images/courses/arduino/a2.png"
+          },
+          {
+            "src": "/images/courses/arduino/a3.png"
+          },
+          {
+            "src": "/images/courses/arduino/a4.png"
+          },
+          {
+            "src": "/images/courses/arduino/a5.png"
+          },
+          {
+            "src": "/images/courses/arduino/a6.png"
+          },
+          {
+            "src": "/images/courses/arduino/a7.png"
+          },
+          {
+            "src": "/images/courses/arduino/a8.png"
+          },
+          {
+            "src": "/images/courses/arduino/a9.png"
+          },
+          {
+            "src": "/images/courses/arduino/a10.png"
+          }
+        ]
+      }
+    ]
+  },
+
+  {
+    "category": "Computer",
+    "name": "computer",
+    "src": "/images/categories/virtual.png",
+    "courses": [
+      {
+        "name": "Virtual Reality (VR)",
+        "registrationForm": "https://forms.gle/ybNikH16GqAeSnmXA",
+        "agenda": "https://drive.google.com/drive/folders/19sj1PfrzBR8KljrpYtblZXcdNpQ4YUMT?usp=sharing",
+        "src": "/images/categories/virtual.png",
+        "desc": "VR stands for 'Virtual Reality' where is a non realistic world makes you feel immersed in your surroundings.",
+        "images": [
+          {
+            "src": "/images/courses/vr/v1.png"
+          },
+          {
+            "src": "/images/courses/vr/v2.png"
+          },
+          {
+            "src": "/images/courses/vr/v3.png"
+          },
+          {
+            "src": "/images/courses/vr/v4.png"
+          },
+          {
+            "src": "/images/courses/vr/v5.png"
+          }
+        ]
+      },
+      {
+        "name": "Graphic Design",
+        "registrationForm": "https://forms.gle/Mfpe6tFiMRWX6g2n6",
+        "agenda": "https://drive.google.com/drive/folders/1bsxCX3-6u-Rocl19lKSUvyz_Igw0S2xi?usp=sharing",
+        "src": "/images/categories/virtual.png",
+        "desc": "As a Graphic designer you need some magic tools to be capable of presenting visual communications aimed at conveying specific important messages.",
+        "images": []
+      }
+    ]
+  },
+
+  {
+    "category": "Electrical",
+    "name": "electrical",
+    "src": "/images/categories/dist.png",
+    "courses": [
+      {
+        "name": "DistribuUon Training (by SMC & Eduvate)",
+        "registrationForm": "https://forms.gle/YvdUF8iMfSWopPeX7",
+        "agenda": "https://drive.google.com/drive/folders/1C6EeBrMp6Vbh_kRdJZYd5VYUkQP4SdFX?usp=sharing",
+        "src": "/images/categories/dist.png",
+        "desc": "The program reconciles university electrical basis to suits the market frame, builds-up a firm ground in the electrical design field, and provides an inclusive overview to the market different paths, types and projects' parties.",
+        "images": []
+      }
+    ]
+  },
+
+  {
+    "category": "Mechanical",
+    "name": "mechanical",
+    "src": "/images/categories/hvac.png",
+    "courses": [
+      {
+        "name": "HVAC",
+        "registrationForm": "https://forms.gle/xXa6ni6k2zLbnAmh7",
+        "agenda": "https://drive.google.com/drive/folders/1ykh7pYMiW-YTgbjlLL9IjWJZTpZvIURh?usp=sharing",
+        "src": "/images/categories/hvac.png",
+        "desc": "The program qualifies you to understand the tasks of HVAC engineers included in basics of HVAC,  VRF air conditioning system, and refrigeration. All the duties of technical office engineer : HVAC Design, system selection; shop drawings,  technical submittal and finally technical offer",
+        "images": []
+      },
+      {
+        "name": "FirefighUng",
+        "registrationForm": "https://forms.gle/9AHcVjkjVrCzYd4R7",
+        "agenda": "https://drive.google.com/drive/folders/1Wo1Jybi4GDPOxQOCBRkNPY7bEo9u3oer?usp=sharing",
+        "src": "/images/categories/hvac.png",
+        "desc": "The program qualifies you to understand the tasks of Firefighting engineers included in all Firefighting systems. All the duties of technical office engineer : pump calculations, system selection; shop drawings,  technical submittal and finally technical offer",
+        "images": []
+      }
+    ]
+  },
+
+  {
+    "category": "Construction",
+    "name": "construction",
+    "src": "/images/categories/bim.png",
+    "courses": [
+      {
+        "name": "BIM",
+        "registrationForm": "https://forms.gle/2dpGPRxhQ8eUfFCVA",
+        "agenda": "https://drive.google.com/drive/folders/13sSzmEmsb8bO2rd-2ZNqQdGqrGXR_kQr?usp=sharing",
+        "src": "/images/categories/bim.png",
+        "desc": "BIM is the overall process of creating a three-dimensional database in the form of a model of information. Revit is just one of many software applications under the BIM umbrella that lead to an efficient design of space.",
+        "images": []
+      }
+    ]
+  }
+]

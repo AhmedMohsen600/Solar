@@ -1,0 +1,30 @@
+[
+    {
+        "num": "1",
+        "desc": "Save your",
+        "text": "usage",
+        "textColor": "electricity"
+    },
+    {
+        "num": "2",
+        "desc": "Save your use of",
+        "textColor": "natural gas"
+    },
+    {
+        "num": "3",
+        "desc": "to the environment",
+        "textColor": "Clean",
+        "textColor1:": "non-polluting"
+    },
+    {
+        "num": "4",
+        "desc": "duo its dependence",
+        "textColor": "Renewable"
+    },
+    {
+        "num": "5",
+        "desc": "operating & maintenance",
+        "textColor": "Low",
+        "textColor1:": "costs"
+    }
+]

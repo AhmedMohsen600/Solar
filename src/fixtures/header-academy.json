@@ -1,0 +1,28 @@
+[
+  {
+    "name": "About Us",
+    "text": "about-us",
+    "href": "/academy#about-us"
+  },
+  {
+    "name": "Programs",
+    "text": "programs",
+    "href": "/academy#programs"
+  },
+  {
+    "name": "Gallery",
+    "text": "gallery",
+    "href": "/academy#gallery"
+  },
+  {
+    "name": "Feedbacks",
+    "text": "feedback",
+    "href": "/academy#feedback"
+  },
+  {
+    "name": "Contact us",
+    "text": "contact",
+    "route": "/contact-us",
+    "href": "contact-us"
+  }
+]

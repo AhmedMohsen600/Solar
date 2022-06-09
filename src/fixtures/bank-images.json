@@ -1,0 +1,30 @@
+[
+    {
+        "src": "/images/banks/afric.jpg",
+        "name": "afric-bank"
+    },
+    {
+        "src": "/images/banks/ahly.jpg",
+        "name": "al ahlly"
+    },
+    {
+        "src": "/images/banks/bank-masr.png",
+        "name": "bank masr"
+    },
+    {
+        "src": "/images/banks/bank1.jpg",
+        "name": "random-bank"
+    },
+    {
+        "src": "/images/banks/bank2.jpg",
+        "name": "random-bank"
+    },
+    {
+        "src": "/images/banks/bank3.png",
+        "name": "random-bank"
+    },
+    {
+        "src": "/images/banks/watn.jpg",
+        "name": "random-bank"
+    }
+]
