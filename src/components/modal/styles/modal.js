@@ -67,6 +67,13 @@ export const Modal = styled.section`
   display: flex;
   flex-direction: column;
   gap: 24px;
+
+  @media (max-width: 700px) {
+    max-height: 90%;
+    overflow-y: auto;
+    width: 98%;
+    padding: 32px;
+  }
 `;
 
 export const Group = styled.div`
@@ -76,6 +83,13 @@ export const Group = styled.div`
   justify-content: ${({ justifyContent }) => justifyContent};
   width: ${({ width }) => width};
   align-items: ${({ alignItems }) => alignItems};
+  @media (max-width: 700px) {
+    justify-content: ${({ justifyMob }) => justifyMob};
+    flex-direction: ${({ directionMob }) => directionMob};
+    width: ${({ widthMob }) => widthMob};
+    gap: ${({ gapMob }) => gapMob};
+    align-items: ${({ alignMob }) => alignMob};
+  }
 `;
 
 export const CourseName = styled.h3`
@@ -163,6 +177,9 @@ export const HowToPay = styled.img`
   width: 100%;
   height: 290px;
   object-fit: cover;
+  @media (max-width: 600px) {
+    height: auto;
+  }
 `;
 
 export const ImagesHolder = styled.ul`
@@ -176,6 +193,18 @@ export const Image = styled.li`
   background: url(${({ src }) => src}) center / cover no-repeat;
   width: 100px;
   height: 100px;
+  @media (max-width: 1000px) {
+    flex-basis: calc(100% / 6);
+  }
+  @media (max-width: 600px) {
+    flex-basis: calc(100% / 4);
+  }
+  @media (max-width: 400px) {
+    flex-basis: calc(100% / 3);
+  }
+  @media (max-width: 366px) {
+    flex-basis: calc(100% / 1);
+  }
 `;
 
 export const LockBody = createGlobalStyle`

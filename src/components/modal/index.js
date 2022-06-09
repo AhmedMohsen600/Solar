@@ -99,9 +99,17 @@ ModalPage.OverLay = function ModalPageTitleHolder({
           onClick={() => setPortal(false)}
           cursor={"pointer"}
           color="rgb(59, 59, 59)"
+          overflow={"visible"}
           size={26}
         />
-        <Group alignItems="center" justifyContent="space-between">
+        <Group
+          alignItems="center"
+          justifyMob="flex-start"
+          alignMob="flex-start"
+          directionMob="column"
+          gapMob="16px"
+          justifyContent="space-between"
+        >
           <CourseName>{data ? data.name : "empty"}</CourseName>
           <RegisterBtn
             target="_blank"

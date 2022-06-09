@@ -5,7 +5,7 @@
     "src": "/images/categories/solar1.png",
     "courses": [
       {
-        "name": "Solar Level 1",
+        "name": "Pre-Design Stage of PV",
         "registrationForm": "https://forms.gle/h95iK5Y6sF4A2zgU9",
         "agenda": "https://drive.google.com/drive/folders/1PjDhAd6M9JjhEMaEpsME_1IURcOQtjon?usp=sharing",
         "src": "/images/categories/solar1.png",
@@ -38,7 +38,7 @@
         ]
       },
       {
-        "name": "Solar Level 2",
+        "name": "Advanced PV Systems Design",
         "registrationForm": "https://forms.gle/qUgD383AFVwF6DZAA",
         "agenda": "https://drive.google.com/drive/folders/1cDZTwNED3TCflAVyMjUz-H8H2AerLcTq?usp=sharing",
         "src": "/images/categories/solar1.png",
@@ -214,7 +214,7 @@
         "images": []
       },
       {
-        "name": "FirefighUng",
+        "name": "FireFighting",
         "registrationForm": "https://forms.gle/9AHcVjkjVrCzYd4R7",
         "agenda": "https://drive.google.com/drive/folders/1Wo1Jybi4GDPOxQOCBRkNPY7bEo9u3oer?usp=sharing",
         "src": "/images/categories/hvac.png",

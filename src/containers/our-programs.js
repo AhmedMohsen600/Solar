@@ -63,7 +63,7 @@ export function OurProgramsContainer() {
                     {categ.category}
                   </OurProgrames.CourseName>
                   <OurProgrames.TrainingCourses>
-                    {categ.courses.length} TrainingCourses
+                    {categ.courses.length} Training tracks
                   </OurProgrames.TrainingCourses>
                 </OurProgrames.Frame>
               </OurProgrames.Card>
