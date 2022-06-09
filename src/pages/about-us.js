@@ -42,7 +42,7 @@ export default function AboutUs() {
           </About.Card>
           <About.Card>
             <About.Round>
-              <Target color="var(--color-hover)" />
+              <Target size="26px" color="var(--color-hover)" />
             </About.Round>
             <About.CardTitle>Mission</About.CardTitle>
             <About.CardDesc>
