@@ -180,6 +180,46 @@
         "src": "/images/categories/virtual.png",
         "desc": "As a Graphic designer you need some magic tools to be capable of presenting visual communications aimed at conveying specific important messages.",
         "images": []
+      },
+      {
+        "name": "AR workshop",
+        "registrationForm": "https://forms.gle/MiLJ88vE8DmaPf5Y9",
+        "agenda": "https://drive.google.com/folderview?id=156efEgV0ItjgUuPird4ksYr7RFYihCag",
+        "src": "/images/categories/virtual.png",
+        "desc": "AR stands for 'Augmented Reality' where is is the real world is enhanced by computer-generated perceptual information so lets take the advantage of creating your own workshop project.",
+        "images": []
+      },
+      {
+        "name": "Game Development Workshop",
+        "registrationForm": "https://forms.gle/MiLJ88vE8DmaPf5Y9",
+        "agenda": "https://drive.google.com/folderview?id=158OkBy8mvPdqeRjxzv_ZoEzk472J351V",
+        "src": "/images/categories/virtual.png",
+        "desc": "Using the art of game development you can take the advantage of creating your workshop game.",
+        "images": []
+      },
+      {
+        "name": "Game Development Diploma",
+        "registrationForm": "https://forms.gle/JTKQKDeX7d7ZV3BGA",
+        "agenda": "https://drive.google.com/folderview?id=15CvbQNaeM1gZoii3i7maXV8uFoSejL7w",
+        "src": "/images/categories/virtual.png",
+        "desc": "Game Development is an art that makes you capable of creating games and describes the design, development and release of a game",
+        "images": []
+      },
+      {
+        "name": "Flutter",
+        "registrationForm": "https://forms.gle/KPSmgbm6vbcMNDPv6",
+        "agenda": "https://drive.google.com/folderview?id=1IjUXLgl5YZ2Qx-wP_56u0hWTk0VVzPYM",
+        "src": "/images/categories/virtual.png",
+        "desc": "with 'Flutter', a fabulous software development kit and one of the most powerful open-source UI kits created by Google . you can develop cross platform applications for Android, iOS, Linux, macOS, Windows, Google Fuchsia and the web from a single codebase.",
+        "images": []
+      },
+      {
+        "name": "Web Development",
+        "registrationForm": "https://forms.gle/gnxoNVsGJpeJfCEE6",
+        "agenda": "https://drive.google.com/folderview?id=15HW_AMMSb7DEErUup5Ew7A4tVLcHEs_r",
+        "src": "/images/categories/virtual.png",
+        "desc": "Developing a website for the Internet or an intranet, developing a simple page of plain text to complex web applications, electronic businesses, and social network services, welcome to the web development Track.",
+        "images": []
       }
     ]
   },
@@ -220,6 +260,14 @@
         "src": "/images/categories/hvac.png",
         "desc": "The program qualifies you to understand the tasks of Firefighting engineers included in all Firefighting systems. All the duties of technical office engineer : pump calculations, system selection; shop drawings,  technical submittal and finally technical offer",
         "images": []
+      },
+      {
+        "name": "Plumbing",
+        "registrationForm": "https://forms.gle/g6hYRpiK4nayXviT6",
+        "agenda": "https://drive.google.com/folderview?id=1557CCOvIrsMYI9BV-R4kHK_K43bgukQ1",
+        "src": "/images/categories/hvac.png",
+        "desc": "The program qualifies you to understand the tasks of plumbing engineers included in water supply,  water drain, Swimming pools and fountains.All the duties of technical office engineer : pump calculations, system selection; shop drawings,  technical submittal and finally technical offer",
+        "images": []
       }
     ]
   },
@@ -235,6 +283,46 @@
         "agenda": "https://drive.google.com/drive/folders/13sSzmEmsb8bO2rd-2ZNqQdGqrGXR_kQr?usp=sharing",
         "src": "/images/categories/bim.png",
         "desc": "BIM is the overall process of creating a three-dimensional database in the form of a model of information. Revit is just one of many software applications under the BIM umbrella that lead to an efficient design of space.",
+        "images": []
+      },
+      {
+        "name": "Technical Office Track",
+        "registrationForm": "https://forms.gle/11JswTpn9FPXwN898",
+        "agenda": "https://drive.google.com/folderview?id=15bJzt5kFsCFhoRSe9OSb3_dvsZruIBq2",
+        "src": "/images/categories/bim.png",
+        "desc": "Training that qualifies you to understand the tasks of the technical office included in the organizational structure of the project, bids, tenders, measurements, construction contracts, inventory of quantities, pricing, extracts, correspondence, reports, project documents, and practical application to all tasks of the technical office",
+        "images": []
+      },
+      {
+        "name": "Structural Design Track",
+        "registrationForm": "https://forms.gle/1zy1UkyMvMtqW4xp7",
+        "agenda": "https://drive.google.com/folderview?id=15d-RY0FdVjMMQAmQ6N4iNFdv9m1Mtg28",
+        "src": "/images/categories/bim.png",
+        "desc": "Training that qualifies you to design all structural elements using engineering programs",
+        "images": []
+      },
+      {
+        "name": "AutoCAD Track",
+        "registrationForm": "https://forms.gle/Qp69h9kcNLGuX31w6",
+        "agenda": "https://drive.google.com/folderview?id=15iYXhlxL-fLSrfiAzjK4yri6LH7jaxMU",
+        "src": "/images/categories/bim.png",
+        "desc": "Training that qualifies you to use the most famous engineering program (AutoCAD) professionally and to understand and apply all commands",
+        "images": []
+      },
+      {
+        "name": "Finishing Track",
+        "registrationForm": "https://forms.gle/X6LWPt39v4MeHWiY9",
+        "agenda": "https://drive.google.com/folderview?id=15iuxKIkxFWsc0u4O6a-tnbaSY9yMnLno",
+        "src": "/images/categories/bim.png",
+        "desc": "Training that qualifies you to understand all the finishing elements and receive all items from the contractor, a real qualification for the field of work",
+        "images": []
+      },
+      {
+        "name": "LUMION",
+        "registrationForm": "https://forms.gle/rA6UZPiRvrRnZNTP7",
+        "agenda": "https://drive.google.com/folderview?id=16-mr0Kn3m_2DLxoC257d0Cs2XyLqMfyr",
+        "src": "/images/categories/bim.png",
+        "desc": "Residential design, interior architecture, landscape, urban and more, all with Lumion, the 3D rendering software made especially for architects.",
         "images": []
       }
     ]

@@ -19,15 +19,17 @@ export const TitleHolder = styled.div`
 export const CoursesHolder = styled.ul`
   display: flex;
   gap: 32px;
+  flex-wrap: wrap;
+  :last-child {
+    margin-bottom: 60px;
+  }
   @media (max-width: 600px) {
     flex-direction: column;
-    :last-child {
-      margin-bottom: 60px;
-    }
   }
 `;
 
 export const CourseCard = styled.li`
+  flex-basis: 30.7rem;
   position: relative;
   background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, hsl(0, 0%, 0%) 100%),
     url(${({ src }) => src}) center / cover no-repeat;
