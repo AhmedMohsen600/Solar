@@ -2,7 +2,14 @@ import React from "react";
 import styled from "styled-components/macro";
 
 export default function SolarVideo() {
-  return <Video preload="auto" controls={true} muted={true} />;
+  return (
+    <Video
+      src="/video/video.mp4"
+      preload="false"
+      controls={true}
+      muted={true}
+    />
+  );
 }
 
 const Video = styled.video`
