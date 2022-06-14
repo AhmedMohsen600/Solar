@@ -226,8 +226,8 @@ export default function ContactUs() {
                   <MapPin size={20} color="var(--color-hover)" />
                   <Form.Desc color="var(--color-hover)">
                     Headquarter: <br />
-                    298 Al Batea - Moazi Al Mehawar Al Markazi,6th October
-                    <br /> City, Giza Government, Egypt
+                    El-Madina El-Monawwara, First 6th of October. 6 October
+                    City, Giza Governorate, Egypt
                   </Form.Desc>
                 </Form.InfoGroup>
                 <Form.GoogleMap

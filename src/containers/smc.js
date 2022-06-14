@@ -33,7 +33,7 @@ export function SmcContainer() {
             bgHover="var(--primary-color)"
             colHover="white"
             onClick={() => {
-              navigate('/services')
+              navigate("/services");
             }}
           >
             Our services
@@ -46,10 +46,9 @@ export function SmcContainer() {
           </SmcGroup.Round>
           <SmcGroup.CompanyName>SMC Academy</SmcGroup.CompanyName>
           <SmcGroup.Description>
-            A fresh outbreak that provides all relative works & services to
-            Solar Energy
+            Providing multiple Training Programs for engineering students in
+            different branches.
           </SmcGroup.Description>
-
           <Header.Button
             color="var(--secondry-color)"
             bgColor="rgba(1, 51, 101, 0.1)"

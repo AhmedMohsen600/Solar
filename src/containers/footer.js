@@ -60,8 +60,8 @@ export function FooterContainer() {
             <MapPin fontSize="20px" color={iconColor} />
             <Footer.Desc>
               Headquarter: <br />
-              298 Al Batea - Moazi Al Mehawar Al Markazi,6th October
-              <br /> City, Giza Government, Egypt
+              El-Madina El-Monawwara, First 6th of October. <br /> 6 October
+              City, Giza Governorate, Egypt
             </Footer.Desc>
           </Footer.Group>
           <Footer.Group gap="8px">

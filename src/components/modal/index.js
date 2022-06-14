@@ -148,6 +148,7 @@ ModalPage.OverLay = function ModalPageTitleHolder({
     </OverLay>
   );
 };
+
 // end of the logic -----------
 
 ModalPage.TitleHolder = function ModalPageTitleHolder({
@@ -207,9 +208,3 @@ ModalPage.RequestWork = function ModalPageRequestWork({
 }) {
   return <RequestWork {...restProps}>{children}</RequestWork>;
 };
-
-// https://www.facebook.com/SolarMasterCell
-// https://www.facebook.com/SMC.Academy.egy
-// https://www.instagram.com/smc.academy__
-// https://www.instagram.com/smc.egy
-// https://www.linkedin.com/company/sollarmastercell

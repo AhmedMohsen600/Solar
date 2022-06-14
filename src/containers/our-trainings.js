@@ -1,6 +1,6 @@
 import React from "react";
 import { Hero, SmcGroup, Slider, OurWork } from "../components";
-import sliderHome from "../fixtures/slider-home.json";
+import sliderHome from "../fixtures/slider-academy.json";
 export function OurTrainingContainer() {
   return (
     <OurWork direction="row-reverse" id="gallery">
