@@ -40,8 +40,12 @@ Form.Inner = function FormInner({ children }) {
   return <Inner>{children}</Inner>;
 };
 
-Form.FormBase = function FormFormBase({ children }) {
-  return <FormBase>{children}</FormBase>;
+Form.FormBase = function FormFormBase({ koko, children, ...restProps }) {
+  return (
+    <FormBase ref={koko} {...restProps}>
+      {children}
+    </FormBase>
+  );
 };
 
 Form.ContactInfo = function FormContactInfo({ children, ...restProps }) {

@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useRef } from "react";
 import { Form, Hero } from "../components";
 import {
   At,
@@ -9,13 +9,29 @@ import {
   LinkedinLogo,
   WhatsappLogo,
 } from "phosphor-react";
+
 import { HeaderContainer } from "../containers/header";
 import { HeaderAcademyContainer } from "../containers/header-academy";
 import CityData from "../fixtures/branches.json";
+import emailjs from "@emailjs/browser";
 
 export default function ContactUs() {
   const [isHome] = useState(JSON.parse(localStorage.getItem("path")));
 
+  const form = useRef();
+
+  const sendForm = (e) => {
+    e.preventDefault();
+    emailjs
+      .sendForm("gmail", "template_tjowcw7", form.current, "zHz8XyfXUGOE0b4nB")
+      .then(
+        (result) => {
+          console.log("success", result);
+        },
+        (error) => console.log("failed", error)
+      );
+    form.current.reset();
+  };
   return (
     <>
       {isHome === "home" ? (
@@ -125,7 +141,7 @@ export default function ContactUs() {
           </div>
         </Form.Group>
         <Form.Inner>
-          <Form.FormBase>
+          <Form.FormBase koko={form} onSubmit={sendForm}>
             <Form.Group gap="4px">
               <Form.Title
                 color={
@@ -148,6 +164,7 @@ export default function ContactUs() {
                 placeholder="Enter your name"
                 required
                 type="text"
+                name="name"
               />
             </Form.Group>
             <Form.Group gap="8px">
@@ -157,6 +174,7 @@ export default function ContactUs() {
                 placeholder="Enter your email"
                 required
                 type="email"
+                name="email"
               />
             </Form.Group>
             <Form.Group gap="8px">
@@ -165,12 +183,14 @@ export default function ContactUs() {
                 id="phone"
                 placeholder="Enter your phone number"
                 type="text"
+                name="phone"
               />
             </Form.Group>
             <Form.Group gap="8px">
               <Form.Label htmlFor="message">Your Message</Form.Label>
               <Form.TextArea
                 id="message"
+                name="message"
                 placeholder="Enter Message Details here"
                 type="text"
                 rows="5"

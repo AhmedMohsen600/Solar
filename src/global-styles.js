@@ -34,7 +34,6 @@ h1,h2,h3,h4 {
      --title-size: 3rem;
      --title4-size: 3rem; 
      }
-
  }
 
 body {
