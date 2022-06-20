@@ -5,6 +5,8 @@ import "react-multi-carousel/lib/styles.css";
 import CategotyData from "../data/courses-data.json";
 import { Link } from "react-router-dom";
 import { responsive } from "../constant/responsive";
+import { handelLazyLoadBackgroundImage } from "../helper/lazyloadBackground";
+import { PLACE_HOLDER } from "../constant/routes";
 export function OurProgramsContainer() {
   const [cursor, setCursor] = useState("grab");
   const [clientXonMouseDown, setClientXonMouseDown] = useState(null);
@@ -51,7 +53,7 @@ export function OurProgramsContainer() {
               to={`/course/${categ.name}`}
             >
               <OurProgrames.Card
-                src={categ.src}
+                src={handelLazyLoadBackgroundImage(categ.src) || PLACE_HOLDER}
                 onMouseDown={(e) => handleOnMouseDown(e)}
                 onClick={(e) => {
                   handleOnClick(e);

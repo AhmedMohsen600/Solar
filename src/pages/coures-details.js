@@ -3,6 +3,8 @@ import { HeaderAcademyContainer } from "../containers/header-academy";
 import { Hero, Modal, OurProgrames } from "../components";
 import dataObjc from "../data/courses-data.json";
 import { useLocation } from "react-router-dom";
+import { handelLazyLoadBackgroundImage } from "../helper/lazyloadBackground";
+import { PLACE_HOLDER } from "../constant/routes";
 export default function CourseDetails() {
   const [portal, setPortal] = useState(false);
   const [data, setData] = useState(null);
@@ -48,7 +50,7 @@ export default function CourseDetails() {
         <Modal.CoursesHolder>
           {courseObject.courses.map((course) => (
             <Modal.CourseCard
-              src={course.src}
+              src={handelLazyLoadBackgroundImage(course.src) || PLACE_HOLDER}
               onClick={() => {
                 setPortal(true);
                 setData(course);

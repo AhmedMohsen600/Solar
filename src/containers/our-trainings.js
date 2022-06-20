@@ -1,12 +1,17 @@
 import React from "react";
 import { Hero, SmcGroup, Slider, OurWork } from "../components";
-import sliderHome from "../fixtures/slider-academy.json";
+import sliderAcademy from "../fixtures/slider-academy.json";
+import { handelLazyLoadBackgroundImage } from "../helper/lazyloadBackground";
+import { PLACE_HOLDER } from "../constant/routes";
 export function OurTrainingContainer() {
   return (
     <OurWork direction="row-reverse" id="gallery">
       <Slider>
-        {sliderHome.map(({ src }) => (
-          <OurWork.ImageHolder key={src} src={src} />
+        {sliderAcademy.map(({ src }) => (
+          <OurWork.ImageHolder
+            key={src}
+            src={handelLazyLoadBackgroundImage(src) || PLACE_HOLDER}
+          />
         ))}
       </Slider>
       <SmcGroup.InfoHolder width="38.4%">
