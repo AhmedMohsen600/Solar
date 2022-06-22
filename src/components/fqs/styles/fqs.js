@@ -20,7 +20,7 @@ export const Inner = styled.div`
   }
 `;
 
-export const Title = styled.h5`
+export const Title = styled.h3`
   font-size: 3rem;
   font-weight: 700;
   color: var(--color-black);

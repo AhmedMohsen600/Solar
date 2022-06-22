@@ -28,7 +28,7 @@ export const Inner = styled.div`
   }
 `;
 
-export const Title = styled.h4`
+export const Title = styled.h2`
   position: relative;
   font-size: var(--title4-size);
   font-weight: 700;
