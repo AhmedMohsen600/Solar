@@ -21,6 +21,7 @@ import {
   Image,
 } from "./styles/modal";
 import { ArrowLeft } from "phosphor-react";
+
 export default function ModalPage({ children, ...restProps }) {
   return <Container {...restProps}>{children}</Container>;
 }
@@ -54,7 +55,7 @@ ModalPage.OverLay = function ModalPageTitleHolder({
 }) {
   const [index, setIndex] = useState(0);
   const [name, setName] = useState("agenda");
-  console.log({ data });
+
   const tabs = [
     {
       name: "Agenda",

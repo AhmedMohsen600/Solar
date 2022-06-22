@@ -23,18 +23,24 @@ export const OverLay = styled.div`
 export const CardImage = styled.li`
   height: 241px;
   list-style: none;
-  flex: 0 0 calc(94.5% / 4);
+  flex-basis: calc(94.5% / 4);
   box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.12);
   border-radius: 16px;
   background: url(${({ src }) => src}) center / cover no-repeat;
-  @media (max-width: 1422px) {
-    flex: 0 0 calc(74% / 4);
+  @media (max-width: 1392px) {
+    flex-basis: calc(94.7% / 3);
   }
-  @media (max-width: 1390px) {
-    flex: 0 0 calc(71% / 4);
+  @media (max-width: 962px) {
+    flex-basis: calc(94.3% / 3);
+  }
+  @media (max-width: 928px) {
+    flex-basis: calc(96.9% / 2);
+  }
+  @media (max-width: 823px) {
+    flex-basis: calc(95.5% / 2);
   }
   @media (max-width: 600px) {
-    flex: 0 0 calc(100% / 1);
+    flex-basis: calc(100% / 1);
   }
 `;
 
