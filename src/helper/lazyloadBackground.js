@@ -1,5 +1,5 @@
-import lazyLoad from "../hooks/use-lazyload";
+import koko from "../hooks/use-lazyload";
 export const handelLazyLoadBackgroundImage = (src) => {
-  const loaded = lazyLoad(src);
+  const loaded = koko(src);
   return loaded;
 };
