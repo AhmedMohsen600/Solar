@@ -182,8 +182,9 @@ export default function ContactUs() {
               <Form.Input
                 id="phone"
                 placeholder="Enter your phone number"
-                type="text"
+                type="number"
                 name="phone"
+                required
               />
             </Form.Group>
             <Form.Group gap="8px">

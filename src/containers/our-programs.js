@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { OurProgrames, SmcGroup, Hero } from "../components";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
@@ -7,12 +7,15 @@ import { Link } from "react-router-dom";
 import { responsive } from "../constant/responsive";
 import { handelLazyLoadBackgroundImage } from "../helper/lazyloadBackground";
 import { PLACE_HOLDER } from "../constant/routes";
+
 export function OurProgramsContainer() {
   const [cursor, setCursor] = useState("grab");
   const [clientXonMouseDown, setClientXonMouseDown] = useState(null);
   const [clientYonMouseDown, setClientYonMouseDown] = useState(null);
   // add category object inside local storage
-
+  useEffect(() => {
+    console.log({ cursor });
+  }, [cursor]);
   function handleOnMouseDown(e) {
     setClientXonMouseDown(e.clientX);
     setClientYonMouseDown(e.clientY);
@@ -45,6 +48,7 @@ export function OurProgramsContainer() {
           transitionDuration={90}
           minimumTouchDrag={20}
           autoPlay={true}
+          focusOnSelect={true}
         >
           {CategotyData.map((categ) => (
             <Link
@@ -58,7 +62,6 @@ export function OurProgramsContainer() {
                 onClick={(e) => {
                   handleOnClick(e);
                 }}
-                draggable="false"
               >
                 <OurProgrames.Frame>
                   <OurProgrames.CourseName>
