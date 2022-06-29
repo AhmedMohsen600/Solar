@@ -193,18 +193,19 @@ export const ImagesHolder = styled.ul`
 export const Image = styled.li`
   list-style: none;
   background: url(${({ src }) => src}) center / cover no-repeat;
-  width: 100px;
+  flex-basis: calc(100% / 6);
   height: 100px;
   @media (max-width: 1000px) {
     flex-basis: calc(100% / 6);
   }
   @media (max-width: 600px) {
+    height: 200px;
     flex-basis: calc(100% / 4);
   }
   @media (max-width: 400px) {
     flex-basis: calc(100% / 3);
   }
-  @media (max-width: 366px) {
+  @media (max-width: 390px) {
     flex-basis: calc(100% / 1);
   }
 `;
