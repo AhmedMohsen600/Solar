@@ -54,7 +54,7 @@ export function OurProgramsContainer() {
             <Link
               draggable="false"
               key={categ.name}
-              to={`/course/${categ.name}`}
+              to={`/academy/${categ.name}`}
             >
               <OurProgrames.Card
                 src={handelLazyLoadBackgroundImage(categ.src) || PLACE_HOLDER}
