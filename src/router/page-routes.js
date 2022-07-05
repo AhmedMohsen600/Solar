@@ -8,6 +8,7 @@ import {
   AboutUs,
   Services,
   CourseDetails,
+  PageNotFound,
 } from "../pages";
 export default function PageRoutes() {
   return (
@@ -18,6 +19,7 @@ export default function PageRoutes() {
       <Route path={ROUTES.ABOUT_US} element={<AboutUs />} />
       <Route path={ROUTES.SERVICES} element={<Services />} />
       <Route path={ROUTES.COURSE_DETAILS} element={<CourseDetails />} />
+      <Route path="*" element={<PageNotFound />} />
     </Routes>
   );
 }
