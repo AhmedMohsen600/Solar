@@ -42,10 +42,15 @@ body {
     /* font-family: 'Raleway', sans-serif;
     font-family: 'Urbanist', sans-serif; */
 .swiper{
-  width: 280px;
+  width: 300px;
   height: 241px;
+  
+  @media (max-width: 600px){
+      max-width: 55%;
+  }
+
 }
 .swiper-slide{
-  border-radius: 16px;
+    border-radius: 16px;
 }
 `;
