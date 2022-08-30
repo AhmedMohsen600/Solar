@@ -41,5 +41,11 @@ body {
 }
     /* font-family: 'Raleway', sans-serif;
     font-family: 'Urbanist', sans-serif; */
-
+.swiper{
+  width: 280px;
+  height: 241px;
+}
+.swiper-slide{
+  border-radius: 16px;
+}
 `;

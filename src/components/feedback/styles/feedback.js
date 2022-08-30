@@ -12,8 +12,8 @@ export const Container = styled.section`
 export const Inner = styled.ul`
   width: var(--container-width);
   display: flex;
-  flex-wrap: wrap;
-  gap: 24px;
+  /* flex-wrap: wrap;
+  gap: 24px; */
 `;
 
 export const OverLay = styled.div`
